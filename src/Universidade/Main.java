@@ -50,13 +50,15 @@ public class Main {
         sistema.cadastrarCadeiraProfessor(professor1, algebra);
         
         
-        //professor1.cadastrarNotasAluno(aluno1, algebra); //teste unidade 1
-        //professor1.cadastrarNotasAluno(aluno1, algebra); //teste unidade 2
+        professor1.cadastrarNotasAluno(aluno1, algebra); //teste unidade 1
+        professor1.cadastrarNotasAluno(aluno1, algebra); //teste unidade 2
         //System.out.println("\n");
         //sistema.listarCadeiras();
-        //sistema.listarCadeirasAluno(aluno1);
+        sistema.listarCadeirasAluno(aluno1);
         //sistema.removerCadeiraSistema();
         //sistema.listarCadeiras();
+        
+        //teste testet testst
         
     }
     
